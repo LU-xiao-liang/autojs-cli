@@ -1,0 +1,7 @@
+{
+    "android": {
+        "scriptPath": "/sdcard/scripts",
+        "packageName": "org.autojs.autojs",
+        "activityName": ".external.open.RunIntentActivity"
+    }
+}

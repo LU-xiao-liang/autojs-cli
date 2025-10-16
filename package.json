@@ -1,0 +1,32 @@
+{
+  "name": "Android Automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "lint:check": "eslint src --max-warnings 0",
+    "dev": "node ./scripts/dev.script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "chokidar": "^4.0.3",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "config": "^4.1.1",
+    "console-log-level": "^1.4.1",
+    "inquirer": "^12.9.6"
+  }
+}
