@@ -160,8 +160,6 @@ export default [
             // Auto.js 特殊规则
             "no-undef": "error",
             "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
-            "no-var": "off",          // 必须使用 var
-            "prefer-const": "off",    // const 支持但不强制
             "object-shorthand": "off",
 
             // 最佳实践

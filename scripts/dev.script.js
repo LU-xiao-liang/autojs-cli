@@ -1,5 +1,6 @@
 import inquirer from 'inquirer';
-import { getScriptNames, getAdbDeviceList, watchScriptFolder, logger } from './utils/index.js';
+import logger from './utils/logger.js';
+import { getScriptNames, getAdbDeviceList, watchScriptFolder } from './utils/index.js';
 
 // 选择设备
 async function selectDevice() {
@@ -15,7 +16,6 @@ async function selectDevice() {
     // 检测是否只有一个设备
     if (adbDeviceList.length === 1) {
         device = adbDeviceList[0];
-
     } else {
         // 有多个设备，需要用户选择
         const deviceAnswers = await inquirer.prompt([
