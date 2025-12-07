@@ -168,6 +168,7 @@ export default [
             "no-magic-numbers": ["warn", { "ignore": [0, 1, 2, 1000] }],
 
             "autojs/images-recycle": "error",  // 自定义规则：检查captureScreen是否配套使用recycle
+            "quotes": "off"
         }
     }
 ]

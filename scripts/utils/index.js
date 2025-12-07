@@ -201,6 +201,8 @@ export function watchLogcat(device, scriptName) {
             if (code !== 0) {
                 logger.warn(`[${device}:${scriptName}] logcat 进程退出，退出码: ${code}`);
             }
+            // 退出进程
+            process.exit(code);
         });
 
         return logcat;
